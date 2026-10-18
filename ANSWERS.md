@@ -2,7 +2,7 @@
 
 **วิชา:** Web Development / CI-CD Lab  
 **หัวข้อ:** LAB: GitHub Actions + GitHub Pages  
-**ชื่อ-นามสกุล:** ภคพล ฤทธิ์กันโต (Pakaraphon Ritkanto)  
+**ชื่อ-นามสกุล:** ภัคพล ริตกันโต (Pakaraphon Ritkanto)  
 **รหัสนิสิต:** 67160360  
 **GitHub Repository:** [https://github.com/67160360-AI/webdev-actions-lab](https://github.com/67160360-AI/webdev-actions-lab)  
 **GitHub Pages URL:** [https://67160360-AI.github.io/webdev-actions-lab/](https://67160360-AI.github.io/webdev-actions-lab/)  
@@ -12,7 +12,7 @@
 ## สรุปการทำแบบฝึกหัด (Exercises)
 
 ### Exercise 1 (พื้นฐาน)
-- ปรับเปลี่ยนข้อมูลใน `index.html` ให้แสดงชื่อ **ภคพล ฤทธิ์กันโต (Pakaraphon Ritkanto)** และรหัสนิสิต **67160360** พร้อมข้อความต้อนรับและสถานะที่พร้อมสำหรับการ Deploy
+- ปรับเปลี่ยนข้อมูลใน `index.html` ให้แสดงชื่อ **ภัคพล ริตกันโต (Pakaraphon Ritkanto)** และรหัสนิสิต **67160360** พร้อมข้อความต้อนรับและสถานะที่พร้อมสำหรับการ Deploy
 
 ### Exercise 2 (UI)
 - ออกแบบหน้าเว็บด้วยดีไซน์ Card และ Grid ที่ทันสมัย แบ่งออกเป็น 3 ส่วนหลักตามเกณฑ์:
