@@ -3,40 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Pages Lab</title>
+  <title>ภคพล ฤทธิ์กันโต | Web Development Lab</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main class="card">
-    <h1>My Web Development Lab</h1>
-    <p>ชื่อ: YOUR NAME | รหัสนิสิต: YOUR ID</p>
-    <p id="status">Ready to deploy</p>
-    <div class="actions">
-      <button id="helloBtn">Say Hello</button>
-      <button id="themeBtn" class="secondary">Toggle Theme</button>
-    </div>
+  <div class="container">
+    <header class="card profile-card">
+      <div class="badge">CI/CD Automated Deployment</div>
+      <h1>ภคพล ฤทธิ์กันโต (Pakaraphon Ritkanto)</h1>
+      <p class="subtitle">รหัสนิสิต: <strong>67160360</strong> | มหาวิทยาลัยบูรพา (BUU)</p>
+      
+      <p id="status" class="status-box">✨ Ready to deploy with GitHub Actions</p>
 
-    <section>
-      <h2>About Me</h2>
-      <p>สวัสดีครับ/ค่ะ ฉันเป็นนิสิตที่กำลังเรียนรู้การพัฒนาเว็บและ CI/CD ด้วย GitHub Actions</p>
-    </section>
+      <div class="actions">
+        <button id="helloBtn">Say Hello 👋</button>
+        <button id="themeBtn" class="secondary">Toggle Theme 🌙</button>
+      </div>
+    </header>
 
-    <section>
-      <h2>Skills</h2>
-      <ul class="skills">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git &amp; GitHub</li>
-      </ul>
-    </section>
+    <main class="content-grid">
+      <section class="card">
+        <h2>About Me</h2>
+        <p>
+          สวัสดีครับ! ผมเป็นนิสิตคณะวิทยาการสารสนเทศ มหาวิทยาลัยบูรพา กำลังเรียนรู้และฝึกปฏิบัติการพัฒนาเว็บยุคใหม่ (Modern Web Development) และระบบอัตโนมัติ Continuous Integration / Continuous Deployment (CI/CD) ผ่าน GitHub Actions และ GitHub Pages
+        </p>
+      </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/YOUR_USERNAME">YOUR_USERNAME</a></p>
-    </section>
-  </main>
+      <section class="card">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span class="skill-tag">HTML5 / Semantic Web</span>
+          <span class="skill-tag">CSS3 / Modern Layouts</span>
+          <span class="skill-tag">JavaScript (ES6+)</span>
+          <span class="skill-tag">Git &amp; GitHub</span>
+          <span class="skill-tag">GitHub Actions CI/CD</span>
+          <span class="skill-tag">GitHub Pages Deployment</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Contact</h2>
+        <div class="contact-links">
+          <p>📧 Email: <a href="mailto:67160360@go.buu.ac.th">67160360@go.buu.ac.th</a></p>
+          <p>🐙 GitHub: <a href="https://github.com/67160360-AI" target="_blank" rel="noopener">@67160360-AI</a></p>
+          <p>🌐 Repository: <a href="https://github.com/67160360-AI/webdev-actions-lab" target="_blank" rel="noopener">webdev-actions-lab</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-note">
+      <p>Deployed automatically via GitHub Actions • GitHub Pages Lab</p>
+    </footer>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
